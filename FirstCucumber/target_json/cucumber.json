@@ -1,0 +1,68 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test if user can login",
+        "description": "",
+        "id": "this-is-login-feature;test-if-user-can-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 675889155,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "go to login page",
+            "match": {
+              "location": "LoginSteps.go_to_login_page()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 4837598,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "eneter \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 8
+                },
+                {
+                  "val": "password",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginSteps.eneter_and(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 102655,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify if login is successfull",
+            "match": {
+              "location": "LoginSteps.verify_if_login_is_successfull()"
+            },
+            "keyword": "* "
+          }
+        ]
+      }
+    ],
+    "name": "This is login feature",
+    "description": "",
+    "id": "this-is-login-feature",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
